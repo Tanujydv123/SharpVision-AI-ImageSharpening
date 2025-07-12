@@ -1,6 +1,7 @@
 # Image Sharpening using Knowledge Distillation
 
 This project demonstrates how to use knowledge distillation to train a lightweight student model for image sharpening, guided by a more complex teacher model.
+⚠️ Important:First, extract the ZIP file after downloading, then navigate to the extracted folder and run the code as instructed.
 
 ## Project Structure
 
@@ -78,4 +79,4 @@ The script will:
 
 -   **Models**: You can modify the architectures of the `StudentCNN` and `TeacherCNN` in `models.py`. For a real use case, you would load pre-trained weights into the `TeacherCNN`.
 -   **Loss Function**: The knowledge distillation loss is set to `nn.MSELoss()` in `train.py`. You could experiment with other losses like `nn.L1Loss()` or even a perceptual loss.
--   **Hyperparameters**: Adjust the `LEARNING_RATE`, `BATCH_SIZE`, and `NUM_EPOCHS` at the top of `train.py` to suit your dataset. 
+-   **Hyperparameters**: Adjust the `LEARNING_RATE`, `BATCH_SIZE`, and `NUM_EPOCHS` at the top of `train.py` to suit your dataset.
