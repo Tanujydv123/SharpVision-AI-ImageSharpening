@@ -1,6 +1,7 @@
 # Image Sharpening using Knowledge Distillation
 
 This project demonstrates how to use knowledge distillation to train a lightweight student model for image sharpening, guided by a more complex teacher model.
+
 ⚠️ Important:First, extract the ZIP file after downloading, then navigate to the extracted folder and run the code as instructed.
 
 ## Project Structure
